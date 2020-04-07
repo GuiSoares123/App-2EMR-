@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dados">
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="256dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="212dp"
+        android:text="RecomendaApp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toTopOf="@+id/Texto2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/Texto2"
+        android:layout_width="255dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="119dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="161dp"
+        android:text="Guilherme de P. Soares"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/voltar5"
+        android:layout_width="104dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="328dp"
+        android:layout_marginBottom="123dp"
+        android:onClick="voltarInicio5"
+        android:text="Voltar"
+        app:layout_constraintBottom_toTopOf="@+id/texto1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
